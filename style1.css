@@ -1,0 +1,43 @@
+#caja1{
+    position: relative;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    top:10px;
+    left: 200px;
+}
+
+.contenedor{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor #caja2{
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    top:100px;
+    left: 400px;
+
+}
+
+#caja3{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    top:20px;
+    right: 50px;
+}
+
+#caja4{
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    top:20px;
+    bottom: 20px;
+}
+/* Este position deja estatico el elemento */

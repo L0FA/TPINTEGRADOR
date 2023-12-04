@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+}
+
+.producto{
+    background-color:blue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 20px 20px blue;
+}
+
+.producto h2{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.producto img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.producto .descripcion{
+    color: #333;
+  padding-top: 10px;
+
+}
+
+.producto .precio{
+    color:black;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
