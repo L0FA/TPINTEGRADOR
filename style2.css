@@ -5,9 +5,9 @@ body{
     text-align: center;
 }
 
-body img{
+.navbar-brand img{
     width: 30%;
-    margin-top: 2.5%;
+    margin: 5px;
 }
 
 h1{
@@ -20,7 +20,19 @@ header{
     margin-right: 0px;
 }
 
-nav{
+.navbar-brand{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.navbar a{
+    color: #f7a715;
+}
+
+.container-fluid{
+    background-color:#1b4796
+}
+
+/* nav{
     background-color: #1b4796;
     height: 40px;
     margin-top: 3%;
@@ -43,8 +55,8 @@ nav a{
     padding: 6px 15px;
     font-family: 'Bebas Neue', sans-serif;
     margin: 0 20px;
-    margin-right: 45px;
-}
+    margin-right: 45px; */
+
 
 h2{
     margin-top: 10px;
